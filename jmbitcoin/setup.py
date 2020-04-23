@@ -9,5 +9,6 @@ setup(name='joinmarketbitcoin',
       author_email='',
       license='GPL',
       packages=['jmbitcoin'],
-      install_requires=['future', 'coincurve', 'python-bitcointx'],
+      install_requires=['future', 'coincurve',
+                        'python-bitcointx>=1.0.5', 'pyaes'],
       zip_safe=False)
